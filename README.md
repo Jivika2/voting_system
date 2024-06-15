@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Django Voting Web Application
 
 ## Overview
@@ -122,3 +123,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Thanks to the Django community for their excellent documentation and resources.
+=======
+# voting_system
+Create and manage polls, enable voting, display results, and ensure security using Django's robust framework and built-in features.
+>>>>>>> e37d446f0a97eb4acebae8a595f2fd41acbee4e1

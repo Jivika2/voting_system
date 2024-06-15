@@ -3,7 +3,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from .models import Category, CategoryItem
-# Create your views here.
+
 
 def index(request):
     categories = Category.objects.all()

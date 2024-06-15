@@ -8,24 +8,24 @@
     <form class="signupForm" action="" method='POST'>
         <h4>SignUp</h4>
         {% csrf_token %}
-        {% comment %} <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Username</label>
-            <input type="text" class="form-control" name="username" placeholder="Enter Username">
+         <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Voter Name</label>
+            <input type="text" class="form-control" name="username" placeholder="Enter Voter Name">
           </div>
 
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Password</label>
-            <input type="password" class="form-control" name="password1" placeholder="Enter Password">
+            <label for="exampleFormControlInput1" class="form-label">Voter Id</label>
+            <input type="password" class="form-control" name="password1" placeholder="Enter Voter Id">
           </div>
 
 
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
-            <input type="password" class="form-control" name="password" placeholder="Enter Password">
-          </div> {% endcomment %}
+            <label for="exampleFormControlInput1" class="form-label">Confirm Voter Id</label>
+            <input type="password" class="form-control" name="password" placeholder="Enter Voter Id">
+          </div> 
 
           
-          {% for field in form  %}
+          {% comment %} {% for field in form  %}
 
           {% if field.errors %}
 
@@ -48,7 +48,7 @@
        
   
             
-          {% endfor %}
+          {% endfor %} {% endcomment %}
             
 
 
